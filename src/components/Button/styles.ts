@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 interface ButtonContainerProps {
-    type: 'primary' | 'secondary'
+    buttonType: 'primary' | 'secondary'
 }
 
 export const ButtonContainer = styled.button<ButtonContainerProps>`
@@ -12,7 +12,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     min-height: 1.7rem;
     font-weight: 500;
 
-    ${(props => props.type === 'primary'
+    ${(props => props.buttonType === 'primary'
         ? css`
             border: 1px solid #100636;
             color: #100636;

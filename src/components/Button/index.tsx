@@ -1,13 +1,14 @@
 import { ButtonContainer } from "./styles";
 
 interface ButtonProps {
-    type: 'primary' | 'secondary';
+    buttonType: 'primary' | 'secondary';
     text: string;
+    type: 'submit' | 'button'
 
 }
 
-export function Button({ type, text }: ButtonProps) {
+export function Button({ buttonType, text, type = "button" }: ButtonProps) {
     return (
-        <ButtonContainer type={type}>{text}</ButtonContainer>
+        <ButtonContainer type={type} buttonType={buttonType}>{text}</ButtonContainer>
     )
 }

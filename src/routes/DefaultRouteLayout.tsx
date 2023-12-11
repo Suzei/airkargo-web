@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 export function DefaultRouteLayout() {
     return (
         <>
-            <Header />
+            <Header quotation={true} />
             <Outlet />
             <Footer />
         </>
