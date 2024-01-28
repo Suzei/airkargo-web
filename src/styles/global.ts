@@ -1,4 +1,10 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle, css } from "styled-components";
+
+interface ThreeDots {
+    color?: string;
+    size?: string;
+
+}
 
 const GlobalStyle = createGlobalStyle`
     
@@ -15,6 +21,12 @@ const GlobalStyle = createGlobalStyle`
     }
     
 
+`
+
+export const ThreeDots = styled.span<ThreeDots>`
+        font-weight: 400;
+        color: ${props => props.color ? props.color : css`white`};
+        font-size: ${props => props.size ? css`${props.size}rem` : css`1rem`};
 `
 
 export default GlobalStyle

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Standard",
+        "description": "Soluções eficazes e econômicas. Com entregas para as capitais brasileiras e mais de 4000 cidades, atendendo as necessidades do negócio. Com entregas em até 5 dias úteis."
+    },
+    {
+        "title": "Especial",
+        "description": "Perfeito para quem precisa transportar com cuidados especiais, com chegada em até 2 dias úteis após o envio (nas capitais). Ótimo para itens especiais, cargas orgânicas e fármacos."
+    },
+    {
+        "title": "Internacional",
+        "description": "Através desse serviço, sua encomenda pode ser enviada do Brasil para mais de 200 países, sem burocracia e de forma rápida. Serviço porta-porta e aeroporto-aeroporto, entrega entre 24 e 72 horas."
+    },
+    {
+        "title": "Expresso/Emergencial",
+        "description": "A melhor opção para cargas urgentes. Sua encomenda é embarcada no próximo voo disponível e a entrega é feita imediatamente após a chegada no destino. Entrega feita em até 48h."
+    },
+    {
+        "title": "Premium",
+        "description": "Para o transporte diferenciado e seguro de produtos ou para quem precise de uma logística personalizada, o Premium oferece a transferência do seu produto em veículo ou aeronave dedicado, conforme sua necessidade."
+    },
+    {
+        "title": "RodoKargo",
+        "description": "Modalidade recomendada para aquelas remessas que dispõe de prazo de entrega mais elástico e, que a prioridade do cliente é o custo beneficio. Transporte via rodoviária, mas com o diferencial de menor prazo entre o aéreo e o rodoviário convencional."
+    }
+]

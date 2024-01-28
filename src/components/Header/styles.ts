@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 `
 
 export const HeaderControls = styled.div`
@@ -20,7 +21,7 @@ export const HeaderQuotation = styled.form`
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 1rem 12px;
+    padding: 1rem 0;
 
     input[type="text"] {
         max-width: 80px;
