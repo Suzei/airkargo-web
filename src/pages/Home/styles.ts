@@ -1,9 +1,14 @@
 import styled, { css } from "styled-components";
 import HeroBackground from '../../assets/hero.png'
+import { Button } from "../../components/Button";
 
 
 export const HomeContainer = styled.div`
-    
+    button {
+        font-size: 1.3rem;
+        margin-top: 80px;
+;
+    }
 `
 
 export const HeroContainer = styled.div`
@@ -54,4 +59,11 @@ export const CardContainer = styled.div`
     @media (max-width: 880px) {
         grid-template-columns: 228px;
     }
+`
+
+export const QuotationButton = styled(Button)`
+    font-size: 2.25rem;
+    margin-top: 80px;
+    padding: 20px;
+    
 `

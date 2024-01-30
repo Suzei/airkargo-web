@@ -1,16 +1,9 @@
 import { Card } from "../../components/Card";
 import { ThreeDots } from "../../styles/global";
-import { CardContainer, Cards, HeroContainer, HeroPhrase, HomeContainer } from "./styles";
+import { CardContainer, Cards, HeroContainer, HeroPhrase, HomeContainer, QuotationButton } from "./styles";
 import HomeCards from '../../assets/cards.json'
-import { useEffect } from "react";
 
 export function Home() {
-
-    useEffect(() => {
-        console.log(HomeCards)
-
-    }, [])
-
     return (
         <HomeContainer>
             <HeroContainer>
@@ -32,12 +25,9 @@ export function Home() {
                             key={item.title}
                         />
                     ))}
-
                 </CardContainer>
+                <QuotationButton type="button" buttonType="secondary" text="Faça sua cotação" />
             </Cards>
-
-
-
         </HomeContainer>
     )
 }

@@ -1,4 +1,3 @@
-import { DotsThree, DotsThreeCircle } from "phosphor-react";
 import { ThreeDots } from "../../styles/global";
 import { CardContainer } from "./styles";
 
